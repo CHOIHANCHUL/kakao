@@ -10,9 +10,9 @@ button { border:0; background:transparent; cursor:pointer;}
 
 
 
-#container { max-width:640px; min-width:320px; height:2000px; margin:0 auto; background:linear-gradient(to bottom, #fff 50%, #34cc41 75%, #186c03) }
+#container { max-width:640px; min-width:320px; height:2000px; margin:0 auto;  }
 
-header { position:fixed; top:0; left:0; right:0; background:#fff; max-width:640px; min-width:320px; margin:0 auto; }
+header { position:fixed; top:0; left:0; right:0; background:#fff; max-width:640px; min-width:320px; margin:0 auto; z-index: 10; }
 
 h1 { text-align:center; line-height:46px; height:46px; }
 h1 a { display:inline-block; width:147px; height:24px; background:url('../img/logo_kakaofriends.png') 0 0 / 147px 24px; }
@@ -57,8 +57,21 @@ article .box { padding:20px; }
 .article_head .info strong { display:block; font-size:16px; line-height:24px;}
 .article_head .info .txt_time { font-size:13px; color:#808080 }
 
-.article_con { }
-.article_con img { width:100%; border-radius:15px; }
+.article_con { padding-bottom: 20px; }
+.article_con img {  width:100%; border-radius:15px; }
+
+
+.txt_title { }
+.img2 {position: relative;}
+.img_title2 {position: absolute; bottom: 50px; left: 20px;}
+.img3 {position: relative;}
+.img_title3 {position: absolute; bottom: 50px; left: 20px;}
+.txt_main {font-size: 30px;}
+.txt_sec {}
+
+.foot_banner {}
+.foot_banner img { display: block; margin: auto; width: 550px; border-radius:10px;}
+
 
 
 
